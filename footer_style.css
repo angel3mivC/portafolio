@@ -1,50 +1,51 @@
 footer {
-    margin-top: 25px;
-    padding: 50px;
-    background-color: #1a1a1a;
-    background-image: url('Images/paisley.png');
-    background-repeat: repeat-x;
-    background-size: 200px;
-  
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    color: white;
-  }
-  
-  .icons a {
-    margin-right: 20px;
-  }
-  
-  .icons img {
-    width: 80px;
-    height: 80px;
-    filter: invert(1);
-  }
-  
-  .links {
-    display: flex;
-    gap: 30px;
-    font-size: 1.2rem;
-  }
-  
-  .links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .links a:hover {
-    color: #00CFFF;
-  }
-  
-  .links span {
-    font-size: 1.2rem;
-  }
-  
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  padding: 50px;
+  background-color: #1a1a1a;
+  background-image: url('Images/paisley.png');
+  background-repeat: repeat-x;
+  background-size: 200px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: white;
+}
+
+.icons a {
+  margin-right: 20px;
+}
+
+.icons img {
+  width: 80px;
+  height: 80px;
+  filter: invert(1);
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  font-size: 1.5rem;
+  box-sizing: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #00CFFF;
+}
+
+.links span {
+  font-size: 1.5rem;
+}
